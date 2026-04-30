@@ -25,10 +25,50 @@ class MainActivity : AppCompatActivity() {
         //UI Elements
 
     }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+    }
+
     val edtAmount = findViewById<EditText>(R.id.etdAmount)
     val edtDistance = findViewById<EditText>(R.id.edtDistance)
     val btnRange = findViewById<Button>(R.id.btnRange)
     val edtResult = findViewById<TextView>(R.id.edtResult)
 
+    btnRange.setClickListener
+    {
+        val edtAmount = etFuel.text.toString()
+        val edtDistance = etDistance.text.toString()
 
+        if (edtAmount.isNotEmpty() && consStr.isNotEmpty()) {
+            val edtAmount = etFuel.toDouble()
+            val edtDistance = etDistance.toDouble()
+
+            //Functions appear here
+
+            val edtAmount = arrayOf<String>(ammount, edtDistance)
+
+            if (edtAmount.litres()) > edtAmount) {
+                edtAmount = edtDistance()
+
+            }
+
+            val edtDistance = (Price)
+            if (litres = 20l itres) {
+                Amount("20")
+
+            }
+            val AmountRequired = 20("0 > 20")
+            if (AmountRequired = 20L)
+
+        }
+        val edtResult (AmoutRequired: Amount, distance: String: 20litres)
+
+        edtAmount = < 20
+        edtDistance = ->
+
+        val edtResult = 0 < 20("Display amount required")
+
+    }
 }
