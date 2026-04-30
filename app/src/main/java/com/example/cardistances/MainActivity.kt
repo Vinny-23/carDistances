@@ -70,5 +70,20 @@ class MainActivity : AppCompatActivity() {
 
         val edtResult = 0 < 20("Display amount required")
 
-    }
+    } if (edtDistance.isNotEmpty() && consStr.isNotEmpty()) {
+        val edtDistance = etDistance.toDouble()
+
+        val edtAmount = arrayOf<String>(ammount, edtDistance)
+
+        if (edtAmount.litres()) > edtAmount) {
+            edtAmount = edtDistance()
+
+        }
+
+        val edtDistance = (Price)
+        if (litres = 30l itres) {
+            Amount("30")
+
+
+        }
 }
